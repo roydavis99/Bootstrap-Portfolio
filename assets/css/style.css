@@ -41,6 +41,9 @@
     width: auto;
     height: auto;
 
+    max-width: 300px;
+    min-width: 150px;
+
 }
 
 .card{
@@ -55,4 +58,7 @@
 
 .footer{
     color: var(--dirtyWhite);
+    border-color: var(--green);
+    border-top-width: 2px;
+    border-top-style: solid;
 }
