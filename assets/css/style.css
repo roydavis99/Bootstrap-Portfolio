@@ -1,0 +1,58 @@
+:root{
+    --grey: #777777;
+    --white: #ffffff;
+    --lightGrey: #cccccc;
+    --green: #4aaaa5;
+    --dirtyWhite: #dddddd;
+    --footerColor: #666666;
+
+    --fontFamily: 'Georgia', Times, Times New Roman, serif;
+}
+
+.header, .nav-stuff{
+    background-color: var(--white);
+    border-color: var(--lightGrey);
+    font-family: var(--fontFamily);
+}
+
+.header-tag{
+    color: var(--white);
+    background-color: var(--green);
+}
+
+.nav-item:hover{
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.section-heading{
+    color: var(--green);
+    border-color: var(--dirtyWhite);
+    background-color: var(--white);
+}
+
+.container{
+    background-color: var(--white);
+}
+
+
+.card-img-top{
+    margin: 5px 5px auto 5px;
+    width: auto;
+    height: auto;
+
+}
+
+.card{
+    height: auto;
+}
+
+.btn-send{
+    color: var(--white);
+    background-color: var(--green);
+    border-style: none;
+}
+
+.footer{
+    color: var(--dirtyWhite);
+}
