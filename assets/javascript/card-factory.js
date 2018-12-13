@@ -33,7 +33,21 @@ function cardFactory() {
             description: "Explore the world and find music! Group project where we combined our skills to create a web app using data bases and API's",
             git: "https://github.com/marquiwarqui/PROJECT-1",
             link: "https://marquiwarqui.github.io/PROJECT-1/",
-        } 
+        } ,
+        {
+            name: "Burger",
+            image: "./assets/images/burger.jpg",
+            description:"Using Handlebars to create a web page hosted from a server",
+            git:"https://github.com/roydavis99/HamBurgaler",
+            link:"https://shielded-dusk-89261.herokuapp.com/"
+        },
+        {
+            name:"Bands on Tour",
+            image: "./assets/images/band.jpg",
+            description:"Want to listen to music from your favorite band?  want to see what the next tour looks like? This is your site!",
+            git:"https://github.com/roydavis99/Project2",
+            link:"https://bands-on-tour.herokuapp.com/"
+        }
     ]
 
     /* 
